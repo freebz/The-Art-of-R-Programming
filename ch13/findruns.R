@@ -1,0 +1,9 @@
+findruns <- function(x,k) {
+    n <- length(x)
+    runs <- NULL
+    for (i in 1:(n-k)) {
+        if (all(x[i:(i+k-1)]==1)) runs <- c(runs,i)
+        if (i == n-k) browser() # 마지막 반복일 경우 빠져나감
+    }
+    return(runs)
+}

@@ -1,0 +1,12 @@
+## 13.2 왜 디버깅 도구를 사용할까?
+
+x <- y^2 + 3*g(z,2)
+cat("x =",x,"\n")
+w <- 28
+if (w+q> 0) {
+    u <- 1
+    print("the 'if' was done")
+} else {
+    v <- 10
+    print("the 'else' was done")
+}

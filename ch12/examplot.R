@@ -1,0 +1,6 @@
+d1 = density(testscores$Exam1,from=0,to=100)
+d2 = density(testscores$Exam2,from=0,to=100)
+plot(d1,main="",xlab="")
+lines(d2)
+text(46.7,0.02,"Exam 1")
+text(12.3,0.008,"Exam 2")
